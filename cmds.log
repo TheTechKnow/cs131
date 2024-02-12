@@ -1,16 +1,16 @@
-  145  ls
-  146  mkdir Worksheet1
-  147  mv cmds.log Worksheet1/
-  148  mv cmds.log cs131/Worksheet1/
-  149  cd cs131/Worksheet1
-  150  cd Worksheet1
-  151  history > cmds.log
-  152  mv cmds.log cs131/Worksheet1/
-  153  mv cmds.log Worksheet1/
-  154  cd cs131
-  155  mkdir Worksheet1
-  156  mv cmds.log Worksheet1/cmds.log
-  157  cd cs131
-  158  pwd
-  159  cd ~/cs131
-  160   mkdir Worksheet1
+  164  git commit -m "Added cmds.log file"
+  165  git push origin main
+  166  eval "$(ssh-agent -s)"
+  167  ssh-add ~/.ssh/id_rsa
+  168  pbcopy < ~/.ssh/id_rsa.pub
+  169  git push origin main
+  170  git push origin main
+  171  git push origin main
+  172  git remote set-url origin git@github.com:TheTechKnow/cs131.git
+  173  git push origin main
+  174  git clone https://github.com/yourname/cs131.git
+  175  git clone https://github.com/TheTechKnow/cs131.git
+  176  git clone https://github.com/TheTechKnow/cs131.git\n
+  177  git clone https://github.com/TheTechKnow/cs131.git\n
+  178  wget www.github.com
+  179  mkdir Worksheet1
