@@ -1,0 +1,183 @@
+    1  student
+    2  ls ./*.txt
+    3  cd cs131
+    4  cat file'
+    5  hello world
+    6  hi
+    7  cat data structures
+    8  echo $abcd
+    9  a=bcd+e
+   10  a=bcd+1
+   11  echo $a
+   12  a=2+1
+   13  echo$a
+   14  echo $a
+   15  a=$((2+1))
+   16  echo $a
+   17  b=5
+   18  a=$((b+1))
+   19  echo $a
+   20  a='abc'
+   21  a=$abc
+   22  echo $a
+   23  a=test
+   24  c=${a}bc
+   25  echo $c
+   26  man date
+   27  export DATETIME='date'
+   28  OUTDIR=out.$DATETIME
+   29  echo $OUTDIR
+   30  OUTDIR=display.$DATETIME
+   31  echo $OUTDIR
+   32  OUTDIR=OUT.$DATETIME
+   33  echo $DATETIME
+   34  ECHO $?
+   35  echo $?
+   36  scho 'pwd'
+   37  echo "pwd"
+   38  echo 'pwd'
+   39  echo$?
+   40  $echo
+   41  $echo?
+   42  man date
+   43  exit
+   44  ls
+   45  logs sample.txt script.sh temp.txt
+   46  cat .bash_profile
+   47  lookup
+   48  ls
+   49  vi .bashrc
+   50  pwd
+   51  ls -al
+   52  vi .bashrc
+   53  source .bashrc
+   54  111
+   55  cd file.txt
+   56  ls -1
+   57  cat file.txt
+   58  cat helloworld.txt
+   59  cd..
+   60  ls
+   61  cd..
+   62  weget.file.txt
+   63  cat file.txt
+   64  create file.txt
+   65  cd ~
+   66  pwd
+   67  file.txt
+   68  cat file.txt
+   69  cd file.txt
+   70  cs 131
+   71  cd cs 131
+   72  cd
+   73  ls -1
+   74  ls
+   75  cat
+   76  ls -1
+   77  ls
+   78  cd
+   79  ls -1
+   80  ls
+   81  cd file.txt
+   82  cd quotes.txt
+   83  quote.txt
+   84  cd quote.txt
+   85  ls
+   86  ls 1
+   87  ls
+   88  gursimran
+   89  wget index.html
+   90  wget www.github.com
+   91  cd index.html
+   92  cat index.html
+   93  cd files.txt
+   94  cat files.txt
+   95  cd file.txt
+   96  ls -1
+   97  wget user
+   98  ls -i
+   99  cat
+  100  ls -1
+  101  wget spotify.cmsv
+  102  stat index.html
+  103  stat samplePdf.pdf
+  104  fstat index.html
+  105  mv index.html SamplePdf.pdf
+  106  ls -1
+  107  cd Samplepdf.pdf
+  108  cat samplepdf.pdf
+  109  cat SamplePdf.pdf
+  110  mv SamplePdf.pdf index.html
+  111  cat index.html
+  112  stat index.html
+  113  strace mkdir mydir
+  114  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  115  grep "United States" "Global YouTube Statistics.csv"
+  116  grep "Music" "Global YouTube Statistics.csv"
+  117  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  118  grep "Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  119  cat counts.txt
+  120  cat "Global YouTube Statistics.csv"
+  121  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  122  grep "Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  123  cat "Global YouTube Statistics.csv"
+  124  cat counts.txt
+  125  vi counts.txt
+  126  cat counts.txt
+  127  vi count.txt
+  128  cat counts.txt
+  129  cat count.txt
+  130  vi counts.txt
+  131  cat counts.txt
+  132  history > cmds.log
+  133  cd git clone https://github.com/TheTechKnow/cs131-Worksheet2.git
+  134  cd git clone https://github.com/TheTechKnow/cs131.git
+  135  pwd
+  136  mv ~/counts.txt Worksheet2/
+  137  git clone https://github.com/TheTechKnow/cs131.git
+  138  mv  https://github.com/TheTechKnow/cs131.git/counts.txt Worksheet2/
+  139  mv /counts.txt Worksheet2/
+  140  mv counts.txt Worksheet2/
+  141  mv ~/counts.txt ~/Worksheet2/
+  142  mkdir Worksheet2
+  143  mv counts.txt Worksheet2/
+  144  git clone https://github.com/TheTechKnow/cs131.git
+  145  mv counts.txt cmds.log cs131/Worksheet2/
+  146  cd cs131
+  147  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  148  cd ~
+  149  mkdir cs131/Worksheet2
+  150  mv counts.txt cmds.log cs131/Worksheet2/
+  151  ls cs131/Worksheet2
+  152  mv counts.txt cmds.log cs131/Worksheet2/
+  153  mkdir -p cs131/Worksheet2
+  154  cd ~
+  155  mkdir cs131/Worksheet2
+  156  mv counts.txt cmds.log cs131/Worksheet2/
+  157  ls cs131/Worksheet2
+  158  mv counts.txt cmds.log cs131/Worksheet2/
+  159  rm -f cs131/Worksheet2
+  160  mkdir cs131/Worksheet2
+  161  mv counts.txt cmds.log cs131/Worksheet2/
+  162  ls
+  163  cat count.txt
+  164  mv count.txt cmds.log cs131/Worksheet2/
+  165  find / -name cmds.log
+  166  history > cmds.log
+  167  ls
+  168  mv count.txt cmds.log ~/cs131/Worksheet2/
+  169  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  170  grep "Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  171  cat counts.txt
+  172  vi counts.txt
+  173  ls
+  174  history > cmds.log
+  175  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  176  ls
+  177  mv cmds.log counts.txt ~/cs131/Worksheet2/
+  178  ls ~/cs131/Worksheet2
+  179  git clone https://github.com/TheTechKnow/cs131
+  180  git clone https://github.com/TheTechKnow/cs131.git
+  181  ls
+  182  ls Worksheet2
+  183  history > cmds.log

@@ -1,0 +1,4 @@
+The 238 count shows that how many lines have the "Music" Category.
+the other count of 8** shows that how many times the "Music Category is found in the whole file.
+So the first command > redirects to the number of lines and the second with >> redirects to the number of categories.
+
