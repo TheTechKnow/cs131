@@ -1,0 +1,16 @@
+Answer 2: Output: /bin/bash
+Answer 2: Output: /mnt/scratch/SP24_CS131_Jyotika/gursimransp24
+Answer 3:uid=1209(gursimransp24) gid=1209(gursimransp24) groups=1209(gursimransp24),78(S78)
+
+Answer 4: After removing the write permission, it allows me to go into cd command,it shows the empty list when I use the ls and ls -1 command but it does not allow me to create new files in this directory and it says permission denied.
+Answer 6: The memory description is as follows:
+total        used        free      shared  buff/cache   available
+Mem:          71367       32130       20126        3576       19110       34202
+Swap:          4119           0        4119
+
+The total memory is 71367 mebibytes.
+
+Answer 9: NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)".
+
+Answer 10: lrwxrwxrwx, these are the permission description to the oS file. Every user, group is allowed to read, write and execute the file.

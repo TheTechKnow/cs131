@@ -1,0 +1,380 @@
+    1  student
+    2  ls ./*.txt
+    3  cd cs131
+    4  cat file'
+    5  hello world
+    6  hi
+    7  cat data structures
+    8  echo $abcd
+    9  a=bcd+e
+   10  a=bcd+1
+   11  echo $a
+   12  a=2+1
+   13  echo$a
+   14  echo $a
+   15  a=$((2+1))
+   16  echo $a
+   17  b=5
+   18  a=$((b+1))
+   19  echo $a
+   20  a='abc'
+   21  a=$abc
+   22  echo $a
+   23  a=test
+   24  c=${a}bc
+   25  echo $c
+   26  man date
+   27  export DATETIME='date'
+   28  OUTDIR=out.$DATETIME
+   29  echo $OUTDIR
+   30  OUTDIR=display.$DATETIME
+   31  echo $OUTDIR
+   32  OUTDIR=OUT.$DATETIME
+   33  echo $DATETIME
+   34  ECHO $?
+   35  echo $?
+   36  scho 'pwd'
+   37  echo "pwd"
+   38  echo 'pwd'
+   39  echo$?
+   40  $echo
+   41  $echo?
+   42  man date
+   43  exit
+   44  ls
+   45  logs sample.txt script.sh temp.txt
+   46  cat .bash_profile
+   47  lookup
+   48  ls
+   49  vi .bashrc
+   50  pwd
+   51  ls -al
+   52  vi .bashrc
+   53  source .bashrc
+   54  111
+   55  cd file.txt
+   56  ls -1
+   57  cat file.txt
+   58  cat helloworld.txt
+   59  cd..
+   60  ls
+   61  cd..
+   62  weget.file.txt
+   63  cat file.txt
+   64  create file.txt
+   65  cd ~
+   66  pwd
+   67  file.txt
+   68  cat file.txt
+   69  cd file.txt
+   70  cs 131
+   71  cd cs 131
+   72  cd
+   73  ls -1
+   74  ls
+   75  cat
+   76  ls -1
+   77  ls
+   78  cd
+   79  ls -1
+   80  ls
+   81  cd file.txt
+   82  cd quotes.txt
+   83  quote.txt
+   84  cd quote.txt
+   85  ls
+   86  ls 1
+   87  ls
+   88  gursimran
+   89  wget index.html
+   90  wget www.github.com
+   91  cd index.html
+   92  cat index.html
+   93  cd files.txt
+   94  cat files.txt
+   95  cd file.txt
+   96  ls -1
+   97  wget user
+   98  ls -i
+   99  cat
+  100  ls -1
+  101  wget spotify.cmsv
+  102  stat index.html
+  103  stat samplePdf.pdf
+  104  fstat index.html
+  105  mv index.html SamplePdf.pdf
+  106  ls -1
+  107  cd Samplepdf.pdf
+  108  cat samplepdf.pdf
+  109  cat SamplePdf.pdf
+  110  mv SamplePdf.pdf index.html
+  111  cat index.html
+  112  stat index.html
+  113  strace mkdir mydir
+  114  wget https://raw.githubusercontent.com/jyotikahp/DemoRepoForCS131/main/Global%20YouTube%20Statistics.csv
+  115  grep "United States" "Global YouTube Statistics.csv"
+  116  grep "Music" "Global YouTube Statistics.csv"
+  117  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  118  grep "Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  119  cat counts.txt
+  120  cat "Global YouTube Statistics.csv"
+  121  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  122  grep "Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  123  cat "Global YouTube Statistics.csv"
+  124  cat counts.txt
+  125  vi counts.txt
+  126  cat counts.txt
+  127  vi count.txt
+  128  cat counts.txt
+  129  cat count.txt
+  130  vi counts.txt
+  131  cat counts.txt
+  132  history > cmds.log
+  133  cd git clone https://github.com/TheTechKnow/cs131-Worksheet2.git
+  134  cd git clone https://github.com/TheTechKnow/cs131.git
+  135  pwd
+  136  mv ~/counts.txt Worksheet2/
+  137  git clone https://github.com/TheTechKnow/cs131.git
+  138  mv  https://github.com/TheTechKnow/cs131.git/counts.txt Worksheet2/
+  139  mv /counts.txt Worksheet2/
+  140  mv counts.txt Worksheet2/
+  141  mv ~/counts.txt ~/Worksheet2/
+  142  mkdir Worksheet2
+  143  mv counts.txt Worksheet2/
+  144  git clone https://github.com/TheTechKnow/cs131.git
+  145  mv counts.txt cmds.log cs131/Worksheet2/
+  146  cd cs131
+  147  git add Worksheet2/counts.txt Worksheet2/cmds.log
+  148  cd ~
+  149  mkdir cs131/Worksheet2
+  150  mv counts.txt cmds.log cs131/Worksheet2/
+  151  ls cs131/Worksheet2
+  152  mv counts.txt cmds.log cs131/Worksheet2/
+  153  mkdir -p cs131/Worksheet2
+  154  cd ~
+  155  mkdir cs131/Worksheet2
+  156  mv counts.txt cmds.log cs131/Worksheet2/
+  157  ls cs131/Worksheet2
+  158  mv counts.txt cmds.log cs131/Worksheet2/
+  159  rm -f cs131/Worksheet2
+  160  mkdir cs131/Worksheet2
+  161  mv counts.txt cmds.log cs131/Worksheet2/
+  162  ls
+  163  cat count.txt
+  164  mv count.txt cmds.log cs131/Worksheet2/
+  165  find / -name cmds.log
+  166  history > cmds.log
+  167  ls
+  168  mv count.txt cmds.log ~/cs131/Worksheet2/
+  169  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  170  grep "Music" "Global YouTube Statistics.csv" | wc -w >> counts.txt
+  171  cat counts.txt
+  172  vi counts.txt
+  173  ls
+  174  history > cmds.log
+  175  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  176  ls
+  177  mv cmds.log counts.txt ~/cs131/Worksheet2/
+  178  ls ~/cs131/Worksheet2
+  179  git clone https://github.com/TheTechKnow/cs131
+  180  git clone https://github.com/TheTechKnow/cs131.git
+  181  ls
+  182  ls Worksheet2
+  183  history > cmds.log
+  184  grep "Music" "Global YouTube Statistics.csv" | wc -l > counts.txt
+  185  ls
+  186  mv cmds.log counts.txt ~/cs131/Worksheet2/
+  187  ls Worksheet2
+  188  cd ~/cs131
+  189  git add Worksheet2/cmds.log Worksheet2/counts.txt
+  190  git commit -m "Add cmds.log and counts.txt to Worksheet2 directory"
+  191  git push origin main
+  192  SHA256:GGUOah+bmThuJVCmXiN0ZazrWG/cHrrr3g6AcMLEKQ4
+  193  git clone git@github.com:TheTechKnow/cs131.git
+  194  git push origin main
+  195  \
+  196  ls -1
+  197  ls Worksheet2
+  198  cat counts.txt
+  199  cd counts.txt
+  200  cat worksheet2
+  201  cd Worksheet2
+  202  ls -1
+  203  cat counts.txt
+  204  cd cs131
+  205  cd..
+  206  cd ..
+  207  cd ~/cs131
+  208  mv ~/Worksheet2 ./
+  209  mv ./Worksheet2 ./Worksheet2_old
+  210  mv ~/Worksheet2 ./
+  211  mv ~/cmds.log ./Worksheet2/
+  212  touch ~/cmds.log
+  213  mv ~/cmds.log ./Worksheet2/
+  214  git add Worksheet2 Worksheet2_old cmds.log
+  215  git commit -m "Move Worksheet2 directory and cmds.log file"
+  216  git config --global user.email "gursimran30gcisb@gmail.com"
+  217  git config --global user.name "TheTechKnow"
+  218  git add Worksheet2 Worksheet2_old cmds.log
+  219  git commit -m "Move Worksheet2 directory and cmds.log file"
+  220  git push origin main
+  221  git clone git@github.com:TheTechKnow/cs131.git
+  222  ssh-add -l
+  223  cd ..
+  224  mv ./Worksheet2 ./Worksheet2_old
+  225  git clone git@github.com:TheTechKnow/cs131.git
+  226  ls Worksheet2
+  227  ls -1
+  228  ls -l Worksheet2_old
+  229  mkdir Worksheet2
+  230  mv counts.txt cmds.log Worksheet2/
+  231  cd cs131
+  232  mv counts.txt cmds.log Worksheet2/
+  233  find . -name "counts.txt" -o -name "cmds.log"
+  234  cd cs131
+  235  git add Worksheet2
+  236  git commit -m "Restore Worksheet2 directory and its contents"
+  237  git push origin main
+  238  git remote set-url origin git@github.com:TheTechKnow/cs131.git
+  239  git push origin main
+  240  git clone https://github.com/TheTechKnow/cs131.git
+  241  git push origin main
+  242  git clone https://github.com/TheTechKnow/cs131.git
+  243  git remote set-url origin git@github.com:TheTechKnow/cs131.git
+  244  git clone https://github.com/TheTechKnow/cs131.git
+  245  git push origin main
+  246  grep path
+  247  ls
+  248  /usr/bin/ls |tail
+  249  echo ~
+  250  echo $home
+  251  echo $HOME
+  252  whereis cat
+  253  which ls
+  254  ls -1
+  255  ps aux
+  256  ps -aux |head
+  257  ps -aux | grep gursimran
+  258  ps -aux |head
+  259  echo $?
+  260  top
+  261  find/etc/-type f -name "*.txt"
+  262  find/ etc/ -type f -name "*.txt"
+  263  ls
+  264  find/ etc/ -type f -name "*.html"
+  265  cd worksheet2
+  266  cd Worksheet2
+  267  find/ etc/ -type f -name "*.txt"
+  268  ls
+  269  cat cs131
+  270  cd cs131
+  271  ls
+  272  cat Worksheet2
+  273  cd Worksheet2
+  274  ls
+  275  cat counts.txt
+  276  cmds.lod
+  277  cat cmds.log
+  278  git remote set-url origin git@github.com:TheTechKnow/cs131.git
+  279  git push origin main
+  280  git remote add origin git@github.com:TheTechKnow/cs131.git
+  281  git push --set-upstream origin main
+  282  git config --global user.email "gursimran30kaur@gmail.com"
+  283  git config --global user.name "TheTechKnow"
+  284  git remote add origin git@github.com:TheTechKnow/cs131.git
+  285  git push origin main
+  286  exit
+  287  cat cs131
+  288  cd cs131
+  289  exit
+  290  script
+  291  cd cs 131
+  292  cd cs131
+  293  mkdir Assignment1 (question 1)
+I have used the mkdir command to create the directory inside the cs131 directory.
+  294  cd Assignment1
+  295  vi
+  296  vi cdms.log
+  297  vi cmds.log
+  298  history > cmds.log
+  299  vi cmds.log
+  300  Echo $SHELL
+  301  echo $SHELL (question 2)
+I used this command echo $SHELL for question 2.
+  302  vi Assignment1
+  303  vi Assignment.txt (question 2)
+I have the pasted the ouput in the txt file.
+  304  echo $HOME (question 2)
+I used this command for the question 2.
+  305  vi Assignment1.txt
+pasted the output.
+
+  306  vi Assignment.txt
+  307  vi Assignment1.txt
+  308  id  (question 3)
+  309  vi Assignment1.txt
+I have used the id command for the question 3 and pasted the ouput.
+
+  310  mkdir myDir (question 4)
+  311  chmod u-w myDir (question 4)
+Used the command to remove the write permission for the user.
+
+  312  cd myDir (Question 4)
+  313  ls (Question 4)
+  314  ls -1 (Question 4)
+  315  cd text.txt
+  316  cat text.txt
+  317  touch abc.txt (Question 4)
+creating the file in myDir.
+
+  318  cd cs131
+  319  cd Assignment1
+  320  vi Assignment1.txt
+  321  cd myDir2
+  322  mkdir myDir2 (Question 5)
+  323  mkdir myDir3 (Question 5)
+  324  cd myDir2 
+  325  touch myFile.txt (Question 6)
+Created file in myDir2.
+
+  326  mv myFile.txt ../myDir3 (Question 6)
+Moved the file myFile.txt from myDir2 to myDir3)
+
+  327  ls -1
+  328  cd myDir3
+  329  cd..
+  330  cd ..
+  331  cd myDir3
+  332  ls -1
+  333  cd ..
+  334  free -m (Question 6)
+Used the free command to get the total memory.
+
+  335  cd cs131
+  336  cd Assignment1
+  337  vi Assignment1.txt
+  338  mv ~/counts.txt ~/Worksheet2/i:wq
+  339  a=test
+  340  vi Assignment1.txt
+  341  cd cs131
+  342  free -m
+  343  cd Assignment1
+  344  vi Assignment1.txt
+  345  /etc/os-release file
+  346  cat /etc/os-release (Question 9)
+used the command line to find the operating system version.
+
+  347  /etc/os-release file
+  348  vi Assignment1.txt
+  349  cat /etc/os-release
+  350  ls -1
+  351  ls -l /etc/os-release (Question 10)
+  352  stat -c "%A" /usr/lib/os-release (Question 10)
+  353  ls -lL /etc/os-release (Question 10)
+used the three different commands to find the permission.
+
+  354  vi Assignment1.txt
+  355  vi cmds.log
+  356  cd cs131
+  357  cd Assignment1
+  358  history > cmds.log
