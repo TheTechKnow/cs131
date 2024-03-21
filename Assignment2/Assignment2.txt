@@ -1,0 +1,73 @@
+1. a. By using the given command we are trying to find all the files present in the /etc directory and redirecting its standard output to the one.txt file and redirecting the standard output in the two.txt file.
+
+b. When the cat command is used the one.txt file displays all the files present in the /etc directory that means it displays the standard output of the command in one.txt whereas the two.txt holds the standard errors of the command which displays the files for the which the permission id denied.
+For example:find: ‘/etc/pki/rsyslog’: Permission denied
+find: ‘/etc/lvm/archive’: Permission denied
+find: ‘/etc/lvm/backup’: Permission denied
+
+2. cut -d ',' -f20,21 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq -c | sort -nr | head -n 3
+     15 2006,Mar
+     13 2014,Jul
+     12 2014,Aug
+[gursimransp24@sjsu Assignment2]$ awk -F ',' 'NR > 1 {count[$20","$21]++} END {for (combo in count) print count[combo], combo}' "Global YouTube Statistics.csv" | sort -nr | head -n 3
+15 2006,Mar
+13 2014,Jul
+12 2014,Aug
+[gursimransp24@sjsu Assignment2]$ 
+cut -d ',' -f20,21 "Global YouTube Statistics.csv" | tail -n +2 | sort | uniq -c | sort -nr | head -n 3 and wk -F ',' 'NR > 1 {count[$20","$21]++} END {for (combo in count) print count[combo], combo}' "Global YouTube Statistics.csv" | sort -nr | head -n 3 gives the output.
+
+In the very first command cut -d ',' -f20,21 "Global YouTube Statistics.csv", this part cuts the information from the 20 and 21 column which is month and year, tail -n +2 command helps only display the data from the two columns and missing the headers.
+sort command sorts the columns, uniq -c counts the times of occurences of the indentical columns and sort -nr sorts the output in the desending order and head -n 3 displays top 3 of them.
+
+
+
+
+
+3. The output of the ps -u gursimransp24 command is given below which gives all the processes running under my username. 
+
+    PID TTY          TIME CMD
+3817116 ?        00:00:00 sshd
+3817118 pts/2    00:00:00 bash
+3822583 ?        00:00:00 sshd
+3822586 pts/36   00:00:00 bash
+3829571 pts/2    00:00:00 ps
+3854249 ?        00:19:29 systemd
+3854251 ?        00:00:00 (sd-pam)
+3874292 ?        00:00:00 ssh-agent
+
+
+4.b.  When we execute the vi file.txt command on the terminal and find the processes running on the other terminal, it shows vim as one of the process that is running. The output is given below:
+    PID TTY          TIME CMD
+3817116 ?        00:00:00 sshd
+3817118 pts/2    00:00:00 bash
+3822583 ?        00:00:00 sshd
+3822586 pts/36   00:00:00 bash
+3822849 pts/2    00:00:00 vim
+3823001 pts/36   00:00:00 ps
+3854249 ?        00:19:29 systemd
+3854251 ?        00:00:00 (sd-pam)
+3874292 ?        00:00:00 ssh-agent
+
+Here the process ID for the vim command is 3822849.
+
+
+d. After we quit the vi command on the first terminal, and again see the processes running, the vim command disappears from the output. This is because the vi file.txt command and process has already been completed and is no more running on the terminal or in the IBM.
+
+    PID TTY          TIME CMD
+3817116 ?        00:00:00 sshd
+3817118 pts/2    00:00:00 bash
+3822583 ?        00:00:00 sshd
+3822586 pts/36   00:00:00 bash
+3826486 pts/2    00:00:00 ps
+3854249 ?        00:19:29 systemd
+3854251 ?        00:00:00 (sd-pam)
+3874292 ?        00:00:00 ssh-agent
+
+5.Init process is the process which is invoked by the kernel at startup. 
+ps --pid 1, I used this command to find the process id of init process. The pid for init process is 1.
+
+
+6. ps aux command shows almost all the information regarding the current state of the running process that a user needs to know. It also displays the statistics about the linux system.
+
+
+ 
