@@ -1,0 +1,11 @@
+Task 1:
+
+Highest monthly earning: United States,9200000
+Highest monthly earning: United Kingdom,2000000
+Highest monthly earning: India,9000000
+
+Task 2:
+
+Most Subscribers in categories: Sports,WWE,96000000
+Most Subscribers in categories: Education,Cocomelon - Nursery Rhymes,162000000
+Most Subscribers in categories: Entertainment,MrBeast,166000000
